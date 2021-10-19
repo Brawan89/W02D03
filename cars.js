@@ -14,13 +14,16 @@ editPrice(newPrice) {
 }
 
 showAll(){
-  return this.image;
+   this.forEach(element => {
+      return this[element];
+   });
   
+
    // for (const key in Cars) 
    //    return `${key}: ${Cars[key]}`;
 }
 
 }
 const d = new Cars('W','R44','red','im' , 12 , 123098);
-console.log(d.editPrice(33));
+console.log(d.editPrice(12387));
 console.log(d.showAll());
