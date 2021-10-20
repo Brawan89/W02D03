@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test</title>
 </head>
-<body>
-
+<body onload="happycode() ;">
+    
     <h1 id = 'clicks'> Hello</h1>
     
     <button  onclick = 's()' >size </button>
@@ -17,9 +17,11 @@
     <button onclick="im()"  >Alternate  </button>
 
    
-
-    <p id ='pa' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit!</p>
-    <p id = 'pp'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima laborum facilis eos?</p>
+    <div id="phov" onmouseover="hp(this)" onmouseout="hp2(this)" >
+    <p id ='pa'  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit!</p>
+    <p id = 'pp' >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima laborum facilis eos?</p>
+    </div>
+    <br/>
     <img id ='Hd' src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="img here" >
    
     <br/>
@@ -28,8 +30,17 @@
     <img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0PR2ZAzwhWY7orX3aNxJE67X5TaAjAN7H_g&usqp=CAU">
 
 
-   <!--  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT8d87diHjkqTnE1LOdVDSonAX5kAcIDqF_zGWm7_aKm4t6g9UjDxzirAi0bIa9zItkEk&usqp=CAU" 
-     onclick="alert('This picture...')" alt="" /> -->
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT8d87diHjkqTnE1LOdVDSonAX5kAcIDqF_zGWm7_aKm4t6g9UjDxzirAi0bIa9zItkEk&usqp=CAU" 
+   onclick="alr()">
+
+
+
+   <input type="text" value = "whrite..." onclick = "inp();" />  
+
+   
+
+
+
 
     <script src="task1.js"></script>
 </body>

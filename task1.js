@@ -36,9 +36,31 @@ function bigImg(img1) {
   }
 
 
-  function i1 (m){
-      m.setAttribute ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT8d87diHjkqTnE1LOdVDSonAX5kAcIDqF_zGWm7_aKm4t6g9UjDxzirAi0bIa9zItkEk&usqp=CAU" )
-      onclick="alert('This picture...')"
-      }
+ //Create a script which creates an alert on the page when a user right clicks on a specific image.
+function alr() {
+  alert('This picture...')
+     }
+
+// Create an alert on the page when a user enters data into a input.
+function inp() {
+    alert('you whrite...')
+}
+
+//Create an alert to let the user know when the page has loaded
+window.onload = function() { 
+    alert('Page loaded')}
 
 
+//Highlight all paragraphs when the mouse moves over them (then revert back once it has moved past them).
+
+
+ document.getElementById("phov").addEventListener("mouseover", hp);
+ document.getElementById("phov").addEventListener("mouseout", hp2);
+    
+function hp() {
+    document.getElementById("phov").style.color = "red";
+}
+    
+function hp2() {
+    document.getElementById("phov").style.color = "black";
+}
